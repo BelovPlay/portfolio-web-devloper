@@ -83,7 +83,7 @@
     border:10px solid #fff;
 }
 /* styles for section features */
-.features__title{
+.features__title,.contacts__title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -202,3 +202,121 @@
     background-color:orange;
 }
 /* styles for section contacts */
+.contacts__content{
+    display:flex;
+    padding-bottom: 100px;
+}
+.contacts-form{
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom:30px;
+    padding-left: 47px;
+    padding-right: 48px;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    margin-right:100px;
+}
+.contacts-form__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.contacts-form__input{
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    width: 309px;
+    height: 63px;
+    outline:none;
+    border:none;
+    margin:auto;
+}
+.footer__btn-consult{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2E2E30;
+    margin:auto;
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border-radius: 5px 5px 10px 10px;
+    box-sizing:border-box;
+    border:none;
+    padding:26px 52px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.contacts__list-items{
+    list-style-type:none;
+}
+.contacts__item-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.contacts__list-items{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:53px;
+    width:300px;
+}
+.contacts__item-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.contacts__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.contacts__soc-links{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.footer-soc-links{
+    margin-left:-300px;
+    margin-top:250px;
+}
+.link-privacy-policy{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A5A5A5;
+    margin-left: -150px;
+    margin-top:350px;
+    text-decoration: none;
+}
