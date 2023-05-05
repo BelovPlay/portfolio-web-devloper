@@ -82,3 +82,42 @@
     border-radius:50%;
     border:10px solid #fff;
 }
+/* styles for section features */
+.features__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+.features__list-items{
+    list-style-type:none;
+    display:grid;
+    grid-template-rows:repeat(2,195px);
+    grid-template-columns:repeat(3,270px);
+    justify-content:center;
+    grid-gap:60px;
+    padding-bottom: 92px;
+}
+.features-img{
+    margin-bottom:27px;
+}
+.features-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.features__describe-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
